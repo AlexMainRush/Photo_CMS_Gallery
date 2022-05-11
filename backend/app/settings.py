@@ -1,1 +1,6 @@
-from garpixcms.settings import *  # noqa
+from garpixcms.settings import *
+
+INSTALLED_APPS += [
+    'api',
+    'album',
+]
